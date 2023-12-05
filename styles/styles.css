@@ -155,12 +155,7 @@ header {
   height: var(--nav-height);
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+main :is(h1, h2, h3, h4, h5, h6) {
   font-family: var(--heading-font-family);
   font-weight: normal;
   line-height: 1.25;
@@ -215,14 +210,12 @@ a:any-link {
   text-decoration: none;
 }
 
-code,
 pre,
 samp {
   font-family: var(--fixed-font-family);
   font-size: var(--body-font-size-s);
 }
 
-code,
 samp {
   padding: 0.125em;
 }
